@@ -2,7 +2,7 @@
   "name": "layout-screen-ruler",
   "productName": "Layout Screen Ruler",
   "version": "1.0.0",
-  "description": "Régua de tela em grade: linhas horizontais e verticais sobre toda a tela para conferir alinhamentos de layout. Windows, macOS e Linux.",
+  "description": "On-screen grid ruler: horizontal and vertical lines over the whole screen to check layout alignment. Windows, macOS and Linux.",
   "main": "src/main/main.js",
   "author": "Gabriel Borges",
   "license": "MIT",

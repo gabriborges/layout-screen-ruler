@@ -23,7 +23,7 @@ instaladores para Windows, macOS e Linux.
    **Read and write permissions** (necessário para criar o Release).
 
 > Se o seu usuário ou o nome do repositório forem outros, troque
-> `gabriborges/layout-screen-ruler` em `package.json`, `README.md`, `README.en.md`,
+> `gabriborges/layout-screen-ruler` em `package.json`, `README.md`, `README.pt-BR.md`,
 > `CONTRIBUTING.md` e neste arquivo.
 
 ## 2. Lançar uma versão
@@ -53,8 +53,8 @@ disponíveis como _artifacts_ da execução, sem criar Release.
 ## 3. Deixar a página do repositório caprichada
 
 - **Imagem de prévia** (aparece quando o link é compartilhado): em **Settings ›
-  General › Social preview**, envie `docs/images/pt/social-preview.png`
-  (ou a versão `en`).
+  General › Social preview**, envie `docs/images/en/social-preview.png`
+  (ou a versão `pt`).
 - **Descrição e tópicos**: na página inicial do repositório, clique na engrenagem de
   **About** e adicione uma descrição e tópicos como `screen-ruler`, `grid`, `overlay`,
   `layout`, `pixel`, `design-tools`, `electron`.

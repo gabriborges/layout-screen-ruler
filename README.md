@@ -1,109 +1,107 @@
 <div align="center">
 
-<img src="docs/images/logo.svg" width="112" alt="Ícone do Layout Screen Ruler" />
+<img src="docs/images/logo.svg" width="112" alt="Layout Screen Ruler icon" />
 
 # Layout Screen Ruler
 
-**Uma grade de linhas sobre a tela inteira para conferir alinhamentos de layout.**
-Para Windows, macOS e Linux. Grátis e open source.
+**A grid of lines over your whole screen to check layout alignment.**
+For Windows, macOS and Linux. Free and open source.
 
-[![Última versão](https://img.shields.io/github/v/release/gabriborges/layout-screen-ruler?label=vers%C3%A3o&color=e5262b)](https://github.com/gabriborges/layout-screen-ruler/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/gabriborges/layout-screen-ruler?label=release&color=e5262b)](https://github.com/gabriborges/layout-screen-ruler/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/gabriborges/layout-screen-ruler/total?label=downloads&color=2f2f36)](https://github.com/gabriborges/layout-screen-ruler/releases)
-[![Plataformas](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-2f2f36)](#-download)
-[![Licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-2f2f36)](LICENSE)
+[![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-2f2f36)](#-download)
+[![MIT License](https://img.shields.io/badge/license-MIT-2f2f36)](LICENSE)
 
-🇧🇷 Português · [🇺🇸 English](README.en.md)
+🇺🇸 English · [🇧🇷 Português](README.pt-BR.md)
 
 <br />
 
-<img src="docs/images/pt/hero.png" width="900" alt="Grade vermelha sobre a tela inteira, com a barra de ferramentas do Layout Screen Ruler no topo" />
+<img src="docs/images/en/hero.png" width="900" alt="Red grid over the whole screen, with the Layout Screen Ruler toolbar at the top" />
 
 </div>
 
 ---
 
-O **Layout Screen Ruler** desenha linhas vermelhas horizontais e verticais, igualmente
-espaçadas, por cima de **tudo** o que está na sua tela — navegador, Figma, editor de
-código, qualquer app. Assim fica fácil ver se botões, cards, textos e margens estão
-alinhados.
+**Layout Screen Ruler** draws evenly spaced horizontal and vertical red lines on top of
+**everything** on your screen — browser, Figma, code editor, any app. It makes it easy to
+see whether buttons, cards, text and margins line up.
 
-A grade é **transparente para o mouse**: você continua clicando, rolando e digitando
-normalmente nos apps que estão embaixo dela. Não há números, centímetros ou marcações
-na tela — só as linhas.
+The grid is **transparent to the mouse**: you keep clicking, scrolling and typing in the
+apps underneath it. There are no numbers, centimeters or labels on screen — just lines.
 
-## ✨ Recursos
+## ✨ Features
 
-- 📐 **Grade sobre a tela inteira**, em todos os monitores conectados
-- ↔️ **Distância entre as linhas ajustável** (de 4 a 1000 px), com valores rápidos
-- 🎨 **Cor das linhas** — vermelho por padrão, 9 cores prontas ou qualquer outra, com opacidade
-- 🔢 **Mostra a distância atual em pixels** na barra de ferramentas
-- 👁️ **Liga e desliga a régua** com um clique ou atalho de teclado
-- 📥 **Minimiza para a bandeja do sistema** — a grade continua na tela, a barra some
-- 🖱️ **Os cliques atravessam a grade** — ela nunca atrapalha o seu trabalho
-- 💾 **Lembra as suas preferências** (distância, cor, posição da barra)
-- 🌎 Interface em **português e inglês** (segue o sistema ou escolha no menu da bandeja)
+- 📐 **Grid over the whole screen**, on every connected monitor
+- ↔️ **Adjustable distance between lines** (4 to 1000 px), with quick presets
+- 🎨 **Line color** — red by default, 9 ready-made colors or any other, with opacity
+- 🔢 **Shows the current distance in pixels** on the toolbar
+- 👁️ **Turn the ruler on and off** with one click or a keyboard shortcut
+- 📥 **Minimize to the system tray** — the grid stays, the toolbar hides
+- 🖱️ **Clicks go through the grid** — it never gets in your way
+- 💾 **Remembers your preferences** (distance, color, toolbar position)
+- 🌎 **English and Portuguese** interface (follows the system, or pick one in the tray menu)
 
 ## 📥 Download
 
-Baixe o arquivo do seu sistema (sempre a versão mais recente):
+Download the file for your system (always the latest version):
 
-| Sistema | Arquivo | |
+| System | File | |
 | --- | --- | --- |
-| **Windows 10/11** — instalador | `Layout-Screen-Ruler-Windows-Setup.exe` | [⬇️ Baixar](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Windows-Setup.exe) |
-| **Windows** — portátil (não instala nada) | `Layout-Screen-Ruler-Windows-Portable.exe` | [⬇️ Baixar](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Windows-Portable.exe) |
-| **macOS** — Apple Silicon (M1, M2, M3, M4…) | `Layout-Screen-Ruler-macOS-arm64.dmg` | [⬇️ Baixar](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-macOS-arm64.dmg) |
-| **macOS** — Intel | `Layout-Screen-Ruler-macOS-x64.dmg` | [⬇️ Baixar](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-macOS-x64.dmg) |
-| **Linux** — AppImage (qualquer distro) | `Layout-Screen-Ruler-Linux-x86_64.AppImage` | [⬇️ Baixar](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Linux-x86_64.AppImage) |
-| **Linux** — Debian / Ubuntu (.deb) | `Layout-Screen-Ruler-Linux-amd64.deb` | [⬇️ Baixar](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Linux-amd64.deb) |
+| **Windows 10/11** — installer | `Layout-Screen-Ruler-Windows-Setup.exe` | [⬇️ Download](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Windows-Setup.exe) |
+| **Windows** — portable (no install) | `Layout-Screen-Ruler-Windows-Portable.exe` | [⬇️ Download](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Windows-Portable.exe) |
+| **macOS** — Apple Silicon (M1, M2, M3, M4…) | `Layout-Screen-Ruler-macOS-arm64.dmg` | [⬇️ Download](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-macOS-arm64.dmg) |
+| **macOS** — Intel | `Layout-Screen-Ruler-macOS-x64.dmg` | [⬇️ Download](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-macOS-x64.dmg) |
+| **Linux** — AppImage (any distro) | `Layout-Screen-Ruler-Linux-x86_64.AppImage` | [⬇️ Download](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Linux-x86_64.AppImage) |
+| **Linux** — Debian / Ubuntu (.deb) | `Layout-Screen-Ruler-Linux-amd64.deb` | [⬇️ Download](https://github.com/gabriborges/layout-screen-ruler/releases/latest/download/Layout-Screen-Ruler-Linux-amd64.deb) |
 
-Todas as versões e notas de lançamento ficam na página
-[**Releases**](https://github.com/gabriborges/layout-screen-ruler/releases).
+All versions and release notes are on the
+[**Releases**](https://github.com/gabriborges/layout-screen-ruler/releases) page.
 
-> **Não sabe qual Mac você tem?** Clique no menu  › **Sobre Este Mac**. Se aparecer
-> "Chip Apple M…", baixe **Apple Silicon**; se aparecer "Processador Intel", baixe **Intel**.
+> **Not sure which Mac you have?** Click the  menu › **About This Mac**. If it says
+> "Apple M… chip", get **Apple Silicon**; if it says "Intel processor", get **Intel**.
 
-## 💻 Instalação
+## 💻 Installation
 
 <details open>
 <summary><b>Windows</b></summary>
 
-1. Baixe o **instalador** (`…-Windows-Setup.exe`) e abra.
-2. Se aparecer **"O Windows protegeu o computador"** (SmartScreen), clique em
-   **Mais informações › Executar assim mesmo**. Isso acontece porque o app é gratuito e não
-   tem um certificado de assinatura pago — não é um vírus, e o código está todo aqui.
-3. Siga o instalador. Um atalho é criado na Área de Trabalho e no Menu Iniciar.
+1. Download the **installer** (`…-Windows-Setup.exe`) and open it.
+2. If you see **"Windows protected your PC"** (SmartScreen), click
+   **More info › Run anyway**. This happens because the app is free and has no paid
+   code-signing certificate — it is not a virus, and all of the code is right here.
+3. Follow the installer. Shortcuts are created on the Desktop and in the Start menu.
 
-Prefere não instalar? Use a versão **portátil** (`…-Windows-Portable.exe`): é só abrir.
+Rather not install anything? Use the **portable** version (`…-Windows-Portable.exe`).
 
 </details>
 
 <details open>
 <summary><b>macOS</b></summary>
 
-1. Baixe o `.dmg` do seu tipo de Mac, abra e **arraste o app para a pasta Aplicativos**.
-2. Na **primeira vez**, o macOS bloqueia apps sem certificado da Apple. Para liberar:
-   - abra **Ajustes do Sistema › Privacidade e Segurança**, role até o aviso sobre o
-     Layout Screen Ruler e clique em **Abrir Mesmo Assim**; **ou**
-   - no Terminal, rode:
+1. Download the `.dmg` for your Mac, open it and **drag the app into Applications**.
+2. The **first time**, macOS blocks apps without an Apple certificate. To allow it:
+   - open **System Settings › Privacy & Security**, scroll to the message about
+     Layout Screen Ruler and click **Open Anyway**; **or**
+   - run this in Terminal:
      ```bash
      xattr -dr com.apple.quarantine "/Applications/Layout Screen Ruler.app"
      ```
-3. O app fica na **barra de menus** (ao lado do relógio), não no Dock.
+3. The app lives in the **menu bar** (next to the clock), not in the Dock.
 
 </details>
 
 <details open>
 <summary><b>Linux</b></summary>
 
-**AppImage** (funciona na maioria das distros):
+**AppImage** (works on most distros):
 
 ```bash
 chmod +x Layout-Screen-Ruler-Linux-x86_64.AppImage
 ./Layout-Screen-Ruler-Linux-x86_64.AppImage
 ```
 
-> No Ubuntu 22.04+ pode ser preciso instalar o FUSE: `sudo apt install libfuse2t64`
-> (ou `libfuse2` em versões mais antigas).
+> On Ubuntu 22.04+ you may need FUSE: `sudo apt install libfuse2t64`
+> (or `libfuse2` on older releases).
 
 **Debian / Ubuntu (.deb):**
 
@@ -111,248 +109,245 @@ chmod +x Layout-Screen-Ruler-Linux-x86_64.AppImage
 sudo apt install ./Layout-Screen-Ruler-Linux-amd64.deb
 ```
 
-Depois é só procurar **Layout Screen Ruler** no menu de aplicativos.
+Then search for **Layout Screen Ruler** in your app menu.
 
 </details>
 
-## 📖 Como usar
+## 📖 How to use
 
-### 1. Abra o programa
+### 1. Open the app
 
-Ao abrir, a **grade vermelha** aparece sobre a tela inteira e a **barra de ferramentas**
-aparece no topo, centralizada. Pode continuar usando o computador normalmente: os
-cliques passam pela grade.
+The **red grid** appears over the whole screen and the **toolbar** appears centered at
+the top. Keep using your computer normally: clicks go through the grid.
 
-### 2. Conheça a barra de ferramentas
+### 2. Meet the toolbar
 
 <p align="center">
-  <img src="docs/images/pt/toolbar-guide.png" width="860" alt="Barra de ferramentas com os botões numerados de 1 a 7" />
+  <img src="docs/images/en/toolbar-guide.png" width="860" alt="Toolbar with buttons numbered 1 to 7" />
 </p>
 
-| # | Botão | O que faz |
+| # | Button | What it does |
 | :-: | --- | --- |
-| 1 | **⠿ Alça** | Clique e arraste para mover a barra para qualquer lugar da tela. |
-| 2 | **Espaçamento** | Abre o painel para mudar a **distância entre as linhas**. |
-| 3 | **Cor** | Abre o painel para mudar a **cor** (e a opacidade) das linhas. |
-| 4 | **Distância** | Mostra/oculta a **distância atual em pixels** entre as linhas. |
-| 5 | **Régua ligada / desligada** | **Liga ou desliga** a grade na tela. |
-| 6 | **—** | **Minimiza para a bandeja** do sistema (a grade continua visível). |
-| 7 | **✕** | **Fecha o programa** completamente. |
+| 1 | **⠿ Handle** | Click and drag to move the toolbar anywhere on screen. |
+| 2 | **Spacing** | Opens the panel to change the **distance between lines**. |
+| 3 | **Color** | Opens the panel to change the line **color** (and opacity). |
+| 4 | **Distance** | Shows/hides the **current distance in pixels** between lines. |
+| 5 | **Ruler on / off** | **Turns the grid on or off**. |
+| 6 | **—** | **Minimizes to the system tray** (the grid stays visible). |
+| 7 | **✕** | **Quits the app** completely. |
 
-### 3. Mude a distância entre as linhas
+### 3. Change the distance between lines
 
-Clique em **Espaçamento**. No painel você pode:
+Click **Spacing**. In the panel you can:
 
-- arrastar o **controle deslizante**;
-- digitar o valor exato no campo **px** (de 4 a 1000) e apertar <kbd>Enter</kbd>;
-- usar os botões **−** e **+** (com <kbd>Shift</kbd>, de 10 em 10);
-- escolher um dos **valores rápidos** (8, 10, 16, 20, 24, 32, 40, 50, 64, 100).
+- drag the **slider**;
+- type the exact value in the **px** field (4 to 1000) and press <kbd>Enter</kbd>;
+- use the **−** and **+** buttons (hold <kbd>Shift</kbd> to change by 10);
+- pick one of the **quick values** (8, 10, 16, 20, 24, 32, 40, 50, 64, 100).
 
-A mesma distância vale para as linhas horizontais e verticais, e a grade muda na hora.
-
-<p align="center">
-  <img src="docs/images/pt/spacing.png" width="760" alt="Painel de espaçamento aberto com 24 px selecionado e a grade mais densa" />
-</p>
-
-> 💡 **Atalho:** passe o mouse sobre o botão **Espaçamento** e gire a **rodinha do mouse**
-> para aumentar/diminuir rapidamente (com <kbd>Shift</kbd>, de 10 em 10).
-
-### 4. Mude a cor das linhas
-
-Clique em **Cor**. As linhas são **vermelhas por padrão**, mas você pode:
-
-- escolher uma das **9 cores prontas**;
-- clicar em **Outra cor…** para abrir o seletor de cores do sistema;
-- digitar um código hexadecimal (ex.: `#00E5FF`);
-- ajustar a **opacidade** das linhas (10% a 100%);
-- clicar em **Voltar ao vermelho padrão** para restaurar.
+The same distance applies to horizontal and vertical lines, and the grid updates
+instantly.
 
 <p align="center">
-  <img src="docs/images/pt/color.png" width="760" alt="Painel de cores aberto com ciano selecionado e a grade em ciano" />
+  <img src="docs/images/en/spacing.png" width="760" alt="Spacing panel open with 24 px selected and a denser grid" />
 </p>
 
-### 5. Veja a distância em pixels
+> 💡 **Tip:** hover the **Spacing** button and turn the **mouse wheel** for quick changes
+> (hold <kbd>Shift</kbd> to change by 10).
 
-Clique em **Distância** para mostrar, na própria barra, quantos pixels há entre uma linha
-e a próxima (ex.: **40 px**). Clique de novo para ocultar. O valor acompanha qualquer
-mudança de espaçamento.
+### 4. Change the line color
+
+Click **Color**. Lines are **red by default**, but you can:
+
+- pick one of the **9 ready-made colors**;
+- click **Other color…** to open the system color picker;
+- type a hex code (e.g. `#00E5FF`);
+- adjust the line **opacity** (10% to 100%);
+- click **Back to default red** to restore it.
 
 <p align="center">
-  <img src="docs/images/pt/distance.png" width="760" alt="O valor 40 px na barra corresponde ao espaço entre duas linhas da grade" />
+  <img src="docs/images/en/color.png" width="760" alt="Color panel open with cyan selected and a cyan grid" />
 </p>
 
-### 6. Ligue e desligue a régua
+### 5. See the distance in pixels
 
-Clique em **Régua ligada** para esconder a grade (o botão passa a mostrar **Régua
-desligada**). Clique de novo para mostrar. Também funciona pelo atalho
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>, mesmo com a barra minimizada.
+Click **Distance** to show, right on the toolbar, how many pixels there are from one line
+to the next (e.g. **40 px**). Click again to hide it. The value follows any spacing change.
 
 <p align="center">
-  <img src="docs/images/pt/toggle.png" width="860" alt="Comparação: à esquerda a régua ligada com a grade, à direita desligada" />
+  <img src="docs/images/en/distance.png" width="760" alt="The 40 px value on the toolbar matches the gap between two grid lines" />
 </p>
 
-### 7. Minimize para a bandeja
+### 6. Turn the ruler on and off
 
-Clique em **—** para esconder a barra de ferramentas. **A grade continua na tela** e o
-programa fica rodando como um ícone na **bandeja do sistema** (perto do relógio; no
-macOS, na barra de menus).
-
-- **Clique no ícone** para trazer a barra de volta (Windows/Linux);
-- ou use o **menu do ícone**: _Mostrar barra de ferramentas_, _Régua visível_, _Idioma_ e _Sair_;
-- ou o atalho <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>.
+Click **Ruler on** to hide the grid (the button then reads **Ruler off**). Click again to
+show it. The <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> shortcut works
+too, even with the toolbar minimized.
 
 <p align="center">
-  <img src="docs/images/pt/tray.png" width="760" alt="Menu do ícone na bandeja do sistema com as opções Mostrar barra de ferramentas, Régua visível, Idioma e Sair" />
+  <img src="docs/images/en/toggle.png" width="860" alt="Side by side: ruler on with the grid on the left, ruler off on the right" />
 </p>
 
-> No Windows, o ícone pode ficar escondido na setinha **^** da bandeja. Arraste-o para
-> fora para deixá-lo sempre visível.
+### 7. Minimize to the tray
 
-### 8. Feche o programa
+Click **—** to hide the toolbar. **The grid stays on screen** and the app keeps running
+as an icon in the **system tray** (near the clock; on macOS, in the menu bar).
 
-Clique em **✕** na barra (ou em **Sair** no menu da bandeja). Suas preferências ficam
-salvas para a próxima vez.
+- **Click the icon** to bring the toolbar back (Windows/Linux);
+- or use the **icon menu**: _Show toolbar_, _Ruler visible_, _Language_ and _Quit_;
+- or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>.
 
-## ⌨️ Atalhos de teclado
+<p align="center">
+  <img src="docs/images/en/tray.png" width="760" alt="System tray icon menu with Show toolbar, Ruler visible, Language and Quit" />
+</p>
 
-Funcionam em qualquer app, mesmo com a barra minimizada:
+> On Windows the icon may be hidden behind the **^** arrow in the tray. Drag it out to
+> keep it always visible.
 
-| Ação | Windows / Linux | macOS |
+### 8. Quit
+
+Click **✕** on the toolbar (or **Quit** in the tray menu). Your preferences are saved for
+next time.
+
+## ⌨️ Keyboard shortcuts
+
+They work in any app, even with the toolbar minimized:
+
+| Action | Windows / Linux | macOS |
 | --- | --- | --- |
-| Ligar / desligar a régua | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>R</kbd> |
-| Mostrar / ocultar a barra | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>B</kbd> |
-| Fechar o painel aberto | <kbd>Esc</kbd> | <kbd>Esc</kbd> |
+| Turn the ruler on / off | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>R</kbd> |
+| Show / hide the toolbar | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>B</kbd> |
+| Close the open panel | <kbd>Esc</kbd> | <kbd>Esc</kbd> |
 
-## 🧩 Como funciona
+## 🧩 How it works
 
 <p align="center">
-  <img src="docs/images/pt/how-it-works.png" width="860" alt="Três camadas: barra de ferramentas no topo, grade transparente no meio e seus apps embaixo" />
+  <img src="docs/images/en/how-it-works.png" width="860" alt="Three layers: toolbar on top, transparent grid in the middle and your apps underneath" />
 </p>
 
-O app abre uma janela **transparente, sem bordas e sempre no topo** em cada monitor, e
-desenha a grade nela. Essa janela **ignora o mouse**, então os cliques chegam aos apps de
-baixo. A barra de ferramentas é uma janela separada, que fica por cima da grade.
+The app opens a **transparent, frameless, always-on-top** window on each monitor and draws
+the grid in it. That window **ignores the mouse**, so clicks reach the apps underneath. The
+toolbar is a separate window that stays above the grid.
 
-- **Vários monitores:** cada monitor recebe a sua grade, começando no canto superior
-  esquerdo dele. Conectar ou desconectar monitores atualiza tudo automaticamente.
-- **Pixels lógicos:** a distância é medida em pixels **lógicos** — os mesmos `px` do CSS
-  com zoom de 100%. Se a escala da tela for, por exemplo, 150%, 40 px lógicos ocupam 60
-  pixels físicos; nesse caso o painel de espaçamento mostra a conversão.
-- **Preferências** ficam em um arquivo `settings.json`:
+- **Multiple monitors:** each monitor gets its own grid, starting at its top-left
+  corner. Connecting or disconnecting monitors updates everything automatically.
+- **Logical pixels:** distance is measured in **logical** pixels — the same `px` as CSS at
+  100% zoom. At 150% display scaling, for example, 40 logical px take up 60 physical
+  pixels; in that case the spacing panel shows the conversion.
+- **Preferences** are stored in a `settings.json` file:
   - Windows: `%APPDATA%\Layout Screen Ruler\`
   - macOS: `~/Library/Application Support/Layout Screen Ruler/`
   - Linux: `~/.config/Layout Screen Ruler/`
 
-## ❓ Perguntas frequentes
+## ❓ FAQ
 
 <details>
-<summary><b>O app abriu em inglês. Como deixo em português?</b></summary>
+<summary><b>How do I change the language?</b></summary>
 
-Por padrão ele usa o idioma de exibição do sistema. Clique no ícone da régua na bandeja
-› **Language › Português**. A escolha fica salva.
+By default the app uses your system display language. Click the ruler icon in the tray
+› **Language** (or **Idioma**) and pick one. Your choice is saved.
 
 </details>
 
 <details>
-<summary><b>Minimizei e não acho o programa. E agora?</b></summary>
+<summary><b>I minimized it and can't find the app. Now what?</b></summary>
 
-Ele continua rodando na bandeja do sistema. Use o atalho
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (<kbd>⌘⌥⇧B</kbd> no Mac) para
-trazer a barra de volta. Abrir o programa de novo também mostra a barra.
+It's still running in the system tray. Press
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (<kbd>⌘⌥⇧B</kbd> on a Mac) to
+bring the toolbar back. Opening the app again also shows the toolbar.
 
 </details>
 
 <details>
-<summary><b>Linux: não aparece ícone na bandeja (GNOME)</b></summary>
+<summary><b>Linux: there is no tray icon (GNOME)</b></summary>
 
-O GNOME não mostra ícones de bandeja por padrão. Instale a extensão
+GNOME doesn't show tray icons by default. Install the
 [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
-(no Ubuntu ela já vem ativada). Sem ela, use o atalho
+extension (Ubuntu ships with it enabled). Without it, use
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>.
 
 </details>
 
 <details>
-<summary><b>Linux: a grade aparece com fundo preto</b></summary>
+<summary><b>Linux: the grid has a black background</b></summary>
 
-Janelas transparentes precisam de um compositor ativo (padrão no GNOME, KDE, Cinnamon
-etc.). Em gerenciadores de janela simples (i3, Openbox…), ative um compositor como o
-`picom`.
-
-</details>
-
-<details>
-<summary><b>Linux: e no Wayland?</b></summary>
-
-O app roda via XWayland automaticamente, porque no Wayland nativo "sempre no topo",
-cliques atravessando a janela e atalhos globais não são confiáveis. Para testar o modo
-Wayland nativo mesmo assim, abra com a variável `LSR_WAYLAND=1`.
+Transparent windows need a running compositor (the default on GNOME, KDE, Cinnamon,
+etc.). On minimal window managers (i3, Openbox…), enable a compositor such as `picom`.
 
 </details>
 
 <details>
-<summary><b>Um atalho de teclado não funciona</b></summary>
+<summary><b>Linux: what about Wayland?</b></summary>
 
-Outro programa pode já estar usando a mesma combinação. Os botões da barra e o menu da
-bandeja continuam funcionando normalmente.
+The app runs through XWayland automatically, because on native Wayland "always on top",
+click-through windows and global shortcuts aren't reliable. To try native Wayland anyway,
+start it with the `LSR_WAYLAND=1` environment variable.
 
 </details>
 
 <details>
-<summary><b>A grade fica embaixo de algum app ou de um jogo em tela cheia</b></summary>
+<summary><b>A keyboard shortcut doesn't work</b></summary>
 
-Alguns apps em tela cheia exclusiva (principalmente jogos) ficam acima de qualquer
-janela. Use o modo "janela sem bordas" do app, se houver.
+Another program may already use the same key combination. The toolbar buttons and the
+tray menu keep working normally.
 
 </details>
 
-## 🛠️ Para desenvolvedores
+<details>
+<summary><b>The grid goes under an app or a full-screen game</b></summary>
 
-Requisitos: [Node.js](https://nodejs.org) 20 ou superior.
+Some exclusive full-screen apps (mostly games) stay above every window. Use the app's
+"borderless window" mode, if it has one.
+
+</details>
+
+## 🛠️ For developers
+
+Requirements: [Node.js](https://nodejs.org) 20 or later.
 
 ```bash
 git clone https://github.com/gabriborges/layout-screen-ruler.git
 cd layout-screen-ruler
 npm install
-npm start          # roda o app em modo de desenvolvimento
+npm start          # runs the app in development mode
 ```
 
-| Comando | O que faz |
+| Command | What it does |
 | --- | --- |
-| `npm start` | Abre o app a partir do código-fonte (erros das janelas aparecem no terminal). |
-| `npm run dist` | Gera os instaladores do sistema atual em `dist/`. |
-| `npm run dist:win` / `dist:mac` / `dist:linux` | Gera para um sistema específico. |
-| `npm run assets` | Recria os ícones e **todas as imagens desta documentação** a partir da interface real (`-- --icons` ou `-- --docs` para só uma parte). |
+| `npm start` | Runs the app from source (window errors are printed to the terminal). |
+| `npm run dist` | Builds installers for the current OS into `dist/`. |
+| `npm run dist:win` / `dist:mac` / `dist:linux` | Builds for a specific OS. |
+| `npm run assets` | Regenerates the icons and **every image in this documentation** from the real UI (`-- --icons` or `-- --docs` for just one part). |
 
-> Se `npm start` fechar sem abrir nada dentro do terminal do VS Code, verifique se a
-> variável `ELECTRON_RUN_AS_NODE` está definida — ela faz o Electron rodar como Node.
+> If `npm start` exits without opening anything inside the VS Code terminal, check
+> whether the `ELECTRON_RUN_AS_NODE` variable is set — it makes Electron run as Node.
 
-### Estrutura do projeto
+### Project structure
 
 ```
 src/
-  main/        processo principal: janelas, bandeja, atalhos, preferências
-  preload/     ponte segura entre as janelas e o processo principal
-  renderer/    grade (overlay) e barra de ferramentas (HTML/CSS/JS)
-  shared/      configurações padrão e textos (pt/en)
-assets/        ícones usados pelo app em execução (bandeja, janela)
-build/         ícones-fonte (SVG) e ícone dos instaladores
-scripts/       gerador de ícones e das imagens da documentação
-docs/          imagens e guias
-.github/       publicação automática (GitHub Actions)
+  main/        main process: windows, tray, shortcuts, preferences
+  preload/     secure bridge between the windows and the main process
+  renderer/    grid (overlay) and toolbar (HTML/CSS/JS)
+  shared/      defaults and UI strings (pt/en)
+assets/        icons used by the running app (tray, window)
+build/         source icons (SVG) and installer icon
+scripts/       icon and documentation image generator
+docs/          images and guides
+.github/       automated releases (GitHub Actions)
 ```
 
-### Publicar uma nova versão
+### Releasing a new version
 
-O GitHub Actions compila para Windows, macOS e Linux e publica os instaladores na página
-de Releases sempre que uma tag `v*` é enviada. Passo a passo em
+GitHub Actions builds for Windows, macOS and Linux and publishes the installers on the
+Releases page whenever a `v*` tag is pushed. Step by step (in Portuguese) in
 [**docs/PUBLICAR.md**](docs/PUBLICAR.md).
 
-## 🤝 Contribuindo
+## 🤝 Contributing
 
-Sugestões e correções são bem-vindas! Veja o [guia de contribuição](CONTRIBUTING.md) e
-abra uma [issue](https://github.com/gabriborges/layout-screen-ruler/issues).
+Suggestions and fixes are welcome! See the [contributing guide](CONTRIBUTING.md) and open
+an [issue](https://github.com/gabriborges/layout-screen-ruler/issues).
 
-## 📄 Licença
+## 📄 License
 
 [MIT](LICENSE) © 2026 Gabriel Borges
