@@ -1,0 +1,55 @@
+name: 🐞 Problema / Bug report
+description: Algo não funciona como deveria / Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: O que aconteceu? / What happened?
+      description: Descreva o problema e o que você esperava. / Describe the problem and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir / Steps to reproduce
+      placeholder: |
+        1. Abrir o app
+        2. Clicar em ...
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema / OS
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux (X11)
+        - Linux (Wayland)
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Versão do sistema e distro / OS version and distro
+      placeholder: ex. Ubuntu 24.04 GNOME, macOS 15.1
+  - type: input
+    id: app-version
+    attributes:
+      label: Versão do app / App version
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: displays
+    attributes:
+      label: Monitores e escala / Displays and scaling
+      placeholder: ex. 2 monitores, 1920×1080 a 100% + 2560×1440 a 150%
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Capturas de tela / Screenshots

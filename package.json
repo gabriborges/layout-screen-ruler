@@ -1,0 +1,41 @@
+{
+  "name": "layout-screen-ruler",
+  "productName": "Layout Screen Ruler",
+  "version": "1.0.0",
+  "description": "Régua de tela em grade: linhas horizontais e verticais sobre toda a tela para conferir alinhamentos de layout. Windows, macOS e Linux.",
+  "main": "src/main/main.js",
+  "author": "Gabriel Borges",
+  "license": "MIT",
+  "homepage": "https://github.com/gabriborges/layout-screen-ruler#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriborges/layout-screen-ruler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabriborges/layout-screen-ruler/issues"
+  },
+  "keywords": [
+    "screen-ruler",
+    "grid",
+    "overlay",
+    "layout",
+    "pixel",
+    "design",
+    "electron",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "assets": "electron scripts/generate-assets.js",
+    "dist": "electron-builder --publish never",
+    "dist:win": "electron-builder --win --publish never",
+    "dist:mac": "electron-builder --mac --publish never",
+    "dist:linux": "electron-builder --linux --publish never"
+  },
+  "devDependencies": {
+    "electron": "45.4.1",
+    "electron-builder": "26.18.0"
+  }
+}

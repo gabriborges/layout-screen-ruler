@@ -1,0 +1,72 @@
+# Configuração dos instaladores (https://www.electron.build)
+# Os nomes dos arquivos NÃO levam a versão de propósito: assim os links
+# ".../releases/latest/download/<arquivo>" do README sempre apontam para a
+# versão mais recente.
+
+appId: io.github.gabriborges.layoutscreenruler
+productName: Layout Screen Ruler
+copyright: Copyright © 2026 Gabriel Borges
+
+directories:
+  output: dist
+  buildResources: build
+
+files:
+  - src/**/*
+  - assets/**/*
+  - package.json
+
+publish: null
+
+win:
+  icon: build/icon.png
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+
+nsis:
+  artifactName: Layout-Screen-Ruler-Windows-Setup.${ext}
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Layout Screen Ruler
+
+portable:
+  artifactName: Layout-Screen-Ruler-Windows-Portable.${ext}
+
+mac:
+  icon: build/icon.png
+  category: public.app-category.developer-tools
+  # Assinatura ad-hoc: sem certificado pago da Apple, mas necessária para
+  # rodar em Macs com Apple Silicon. Veja "Instalação no macOS" no README.
+  identity: '-'
+  hardenedRuntime: false
+  extendInfo:
+    LSUIElement: true # utilitário de barra de menus (sem ícone no Dock)
+  target:
+    - target: dmg
+      arch: [arm64, x64]
+
+dmg:
+  artifactName: Layout-Screen-Ruler-macOS-${arch}.${ext}
+
+linux:
+  icon: build/icon.png
+  category: Utility
+  synopsis: Régua de tela em grade / on-screen grid ruler
+  maintainer: Gabriel Borges <gabriborges@users.noreply.github.com>
+  target:
+    - target: AppImage
+      arch: [x64]
+    - target: deb
+      arch: [x64]
+
+appImage:
+  artifactName: Layout-Screen-Ruler-Linux-x86_64.${ext}
+
+deb:
+  artifactName: Layout-Screen-Ruler-Linux-amd64.${ext}

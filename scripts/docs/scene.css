@@ -1,0 +1,463 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+body {
+  font: 14px/1.3 system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, sans-serif;
+  color: #f4f4f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#scene {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+#scene.rounded {
+  border-radius: 18px;
+}
+
+.abs,
+canvas.grid,
+.window,
+.panel-frame,
+.pill,
+.marker,
+.caption,
+.menu,
+.callout,
+.layer,
+.layer-label,
+.annotations {
+  position: absolute;
+}
+
+/* ------------------------------------------------------------ fundos */
+
+.wallpaper {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(900px 520px at 12% 0%, rgba(99, 102, 241, 0.55), transparent 70%),
+    radial-gradient(800px 520px at 100% 100%, rgba(217, 70, 239, 0.4), transparent 70%),
+    linear-gradient(135deg, #1e1b4b 0%, #2a1740 55%, #3b1d3a 100%);
+}
+
+.wallpaper.dark {
+  background:
+    radial-gradient(800px 420px at 15% 0%, rgba(80, 90, 140, 0.35), transparent 70%),
+    radial-gradient(700px 420px at 100% 100%, rgba(255, 60, 60, 0.12), transparent 70%),
+    #0f1014;
+}
+
+/* ------------------------------------------------- janela de navegador */
+
+.window {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(0, 0, 0, 0.25);
+  color: #111827;
+}
+
+.titlebar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 14px;
+  background: #eef0f4;
+  border-bottom: 1px solid #dfe3ea;
+}
+
+.titlebar .dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #c9ced8;
+}
+
+.titlebar .address {
+  flex: 0 1 46%;
+  height: 24px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  border: 1px solid #dfe3ea;
+  border-radius: 12px;
+  background: #fff;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  bottom: 0;
+  background: #fff;
+}
+
+.page .el {
+  position: absolute;
+}
+
+.bar-gray {
+  background: #e5e7eb;
+  border-radius: 5px;
+}
+
+.divider {
+  background: #eef0f4;
+}
+
+.logo-sq {
+  border-radius: 6px;
+  background: linear-gradient(135deg, #6d5efc, #b05cf6);
+}
+
+.heading {
+  font-weight: 750;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+  color: #111827;
+}
+
+.heading.compact {
+  font-size: 22px;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #6d5efc;
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero-img {
+  border-radius: 10px;
+  background:
+    radial-gradient(120px 80px at 70% 30%, rgba(255, 255, 255, 0.7), transparent 70%),
+    linear-gradient(135deg, #c7d2fe, #fbcfe8);
+}
+
+.card {
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.card .img {
+  height: 80px;
+  background: linear-gradient(135deg, #e0e7ff, #fce7f3);
+}
+
+.card .body {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card .bar-gray {
+  height: 9px;
+}
+
+/* ------------------------------------------------------ barra de tarefas */
+
+.taskbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(20, 20, 26, 0.86);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.taskbar .apps {
+  display: flex;
+  gap: 10px;
+}
+
+.taskbar .app {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+
+.taskbar .tray {
+  position: absolute;
+  right: 12px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #e4e4e7;
+  font-size: 12px;
+}
+
+.taskbar .tray svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tray-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 3px;
+}
+
+.tray-icon-wrap {
+  padding: 6px;
+  margin: -6px;
+  border-radius: 6px;
+}
+
+.tray-icon-wrap.hot {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.clock {
+  text-align: right;
+  line-height: 1.25;
+}
+
+/* ------------------------------------------------------------- menu */
+
+.menu {
+  min-width: 300px;
+  padding: 5px;
+  border-radius: 9px;
+  background: #2b2b30;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+
+.menu .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 32px;
+  padding: 0 12px 0 8px;
+  border-radius: 5px;
+}
+
+.menu .item.hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.menu .check {
+  width: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.menu .label {
+  flex: 1;
+}
+
+.menu .accel {
+  color: #a1a1aa;
+  font-size: 12px;
+}
+
+.menu .sep {
+  height: 1px;
+  margin: 5px 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ------------------------------------------------------- anotações */
+
+.annotations {
+  left: 0;
+  top: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: rgba(15, 16, 20, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.pill.red {
+  background: #e5262b;
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.pill .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff2b2b;
+  box-shadow: 0 0 0 3px rgba(255, 43, 43, 0.25);
+}
+
+.pill .dot.off {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #a1a1aa;
+}
+
+.pill kbd,
+.kbd {
+  font: 600 12px/1 ui-monospace, 'Cascadia Mono', Consolas, Menlo, monospace;
+  padding: 4px 7px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f4f4f5;
+}
+
+.marker {
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #ff2b2b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow:
+    0 0 0 4px rgba(255, 43, 43, 0.22),
+    0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.caption {
+  width: 170px;
+  margin-left: -85px;
+  text-align: center;
+  color: #e4e4e7;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.callout {
+  max-width: 420px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: rgba(15, 16, 20, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  line-height: 1.45;
+  color: #e4e4e7;
+}
+
+.panel-frame {
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 14px 40px rgba(0, 0, 0, 0.45);
+}
+
+/* --------------------------------------------------------- camadas */
+
+.layer {
+  width: 440px;
+  height: 270px;
+  border-radius: 16px;
+  transform: rotateX(56deg) rotateZ(-38deg);
+  transform-origin: center;
+  overflow: hidden;
+}
+
+.layer.desktop {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.layer.glass {
+  background: rgba(255, 255, 255, 0.035);
+  box-shadow: inset 0 0 0 2px rgba(255, 90, 90, 0.55);
+}
+
+.layer.top {
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.layer-label .title {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.layer-label .text {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #a1a1aa;
+}
+
+.layer-label .num {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #ff2b2b;
+  color: #fff;
+  font-size: 14px;
+  vertical-align: 2px;
+}
+
+/* --------------------------------------------------------- social */
+
+.social-title {
+  font-size: 68px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.social-tagline {
+  font-size: 24px;
+  color: #d4d4d8;
+  text-align: center;
+}

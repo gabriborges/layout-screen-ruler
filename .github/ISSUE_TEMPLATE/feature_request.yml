@@ -1,0 +1,15 @@
+name: 💡 Sugestão / Feature request
+description: Ideia para melhorar o app / Idea to improve the app
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Qual é a ideia? / What's the idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Para que serviria? / What would it help with?
+      description: Conte o seu caso de uso. / Tell us about your use case.
